@@ -1,0 +1,7 @@
+BasedOnStyle: Google
+Cpp11BracedListStyle: false
+AccessModifierOffset: -4
+ColumnLimit: 85
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4

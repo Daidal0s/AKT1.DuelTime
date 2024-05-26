@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug program",
+            "program": "${workspaceFolder}/build/Debug/bin/PLACEHOLDER",
+            "args": [],
+            "cwd": "${workspaceFolder}/build/Debug/bin/"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug test",
+            "program": "${workspaceFolder}/build/tests/coreTest",
+            "args": [],
+            "cwd": "${workspaceFolder}/tests/"
+        }
+    ]
+}
