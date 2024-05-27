@@ -1,3 +1,7 @@
+#include "core.h"
 #include "gtest/gtest.h"
 
-TEST(/*Topic*/ a, /*Subtopic*/ aa) { ASSERT_EQ(true, true); }
+TEST(/*Topic*/ a, /*Subtopic*/ aa) { 
+    Duelist a;
+    ASSERT_EQ(true, true); 
+}
